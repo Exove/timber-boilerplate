@@ -2,7 +2,7 @@
 
 ## Theme highlights
 
-- [Timber](https://timber.github.io/docs/) (Twig) based templates. Put logic in usual wordpress PHP templates, relate it to a Twig template by assigning to the `$context[]` variable, add corresponding templates in `<themename>/templates` folder;
+- [Timber](https://timber.github.io/docs/) (Twig) based templates. Put logic in usual Wordpress PHP templates, relate it to a Twig template by assigning to the `$context[]` variable, add corresponding templates in `<themename>/templates` folder;
 - BEM methodology for markup/CSS. The project frontend consists of self-contained components. BEM naming convention is `component__element_modifier`. Avoid all the things that you would avoid in a typical BEM-like project. See below for more information;
 - namespaces for CSS classes aka prefixes. Read below on what prefixes can be used, and see here [why namespacing is cool](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/);
 - stylelint linting. Comments starting from words "todo"/"hack" appear as warnings to bring attention to them;
@@ -14,7 +14,7 @@
 - automated Modernizr build based on actually used features only;
 - custom fields registered in code for faster deployment to other environments. 
 
-The theme is best served with [VVV site template](https://github.com/certainlyakey/vvv-project-boilerplate) but can be used standalone without any problems.
+The theme is best served with [VVV site template](https://github.com/Exove/vvv-project-boilerplate) but can be used standalone without any problems.
 
 ## CSS architecture
 
